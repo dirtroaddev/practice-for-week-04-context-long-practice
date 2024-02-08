@@ -1,5 +1,13 @@
 // Your code here
+class Car {
+	speed = 0;
 
+	drive = (newSpeed) => {
+		this.speed = newSpeed;
+		return this.speed;
+	}
+
+}
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
 
